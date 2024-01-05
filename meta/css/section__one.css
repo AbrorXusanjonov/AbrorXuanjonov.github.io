@@ -1,0 +1,79 @@
+
+.first__section {
+    width: 100%;
+    background-color: #000;
+}
+.flex__box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.left__section {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.collectio777 {
+    text-transform: uppercase;
+    color: #999;
+    font-family: "Courier New", Courier, monospace;
+    width: 420px;
+    height: 200px;
+    font-size: 50px;
+    font-weight: 200;
+    position: relative;
+}
+.collectio777::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 500px;
+    background: url(../img/bg/2\ section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: absolute;
+    top: 100%;
+    left: -9%;
+}/* 
+.wave {
+    color: #fff;
+}
+
+.right__section {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.meta__wave {
+    color: #8dfd1b;
+    line-height: 107%;
+
+    padding: 10px;
+    position: relative;
+}
+.meta__wave::before {
+    content: "";
+    display: block;
+    width: 0.1%;
+    height: 100%;
+    background-color: #8dfd1b;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.other__text {
+    color: #fff;
+} */
+.get__on {
+    width: 30%;
+    height: 5%;
+    background-color: #000;
+    border: 1px solid #8dfd1b;
+    color: #fff;
+    font-size: 12px;
+}

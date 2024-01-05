@@ -1,0 +1,161 @@
+
+.header {
+    background: #000;
+    max-width: 100%;
+    height: 800px;
+}
+.header .container {
+    overflow: hidden;
+}
+.header__top {
+    max-width: 1160px;
+    height: 100px;
+    background: #000;
+    margin: 0 auto;
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left__side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.left__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    width: 123px;
+    height: 32px;
+    background: url(../img/logo/logo\ meta.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text a {
+    color: white;
+    text-decoration: none;
+}
+.messenger {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.icon {
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s;
+}
+.icon:hover .item {
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+.icon:hover {
+    border-radius: 30px;
+}
+.twit {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icons/twitter.png);
+    background-repeat: no-repeat;
+}
+.birbalo {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icons/birbalo.png);
+    background-repeat: no-repeat;
+}
+.youtube {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icons/youtube.png);
+    background-repeat: no-repeat;
+}
+.telegram {
+    width: 20px;
+    height: 20px;
+    background: url(../img/icons/telegram.png);
+    background-repeat: no-repeat;
+}
+
+.section {
+    max-width: 1450px;
+    height: 653px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left__header {
+    width: 580px;
+    height: 428px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.h1 {
+    width: 484px;
+    height: 122px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+}
+.h3 {
+    width: 377px;
+    height: 77px;
+    font-weight: 200;
+}
+.button {
+    width: 205px;
+    height: 45px;
+    background-color: #8dfd1b;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+}
+.swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide:hover img {
+    transform: scale(1.45);
+}

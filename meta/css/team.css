@@ -1,0 +1,91 @@
+.team__section{
+background: #000;
+}
+.team__section .container{
+    position: relative;
+    overflow: hidden;
+ 
+}
+.team__text{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    animation-name: teamanim;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes teamanim {
+    0% {
+        top: 0;
+        left: -100%;
+    }
+    100% {
+        top: 0;
+        left: 100%;
+    }
+}
+.shaky__box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img__shaky{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+.text__text{
+    font-size: 50px;
+    font-weight: 600;
+}
+.img__lake{
+    width: 320px;
+    height: 320px;
+    background: url(../img/artist/Новаяпапка/Frame.png);
+    position: relative;
+}
+.img__hike{
+    width: 320px;
+    height: 320px;
+    background: url(../img/artist/Новаяпапка/IMAGE.png);
+    position: relative;
+}
+.img__vania{
+    width: 320px;
+    height: 320px;
+    background: url(../img/artist/Новаяпапка/IMAGE-1.png);
+    position: relative;
+}
+.text__lake{
+    color: #fff;
+    font-size: 22px;
+}
+.founder{
+    color: #8dfd1b;
+}
+.messenger__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.in{
+    width: 20px;
+    height: 20px;
+    background: url(../img/icons/telegram.png);
+    background-repeat: no-repeat;
+}
+.lorem{
+    width: 280px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}

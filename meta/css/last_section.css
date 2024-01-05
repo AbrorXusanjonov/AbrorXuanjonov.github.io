@@ -1,0 +1,26 @@
+.last__section{
+    background: #000;
+    padding-top: 10%;
+}
+.last__section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.join{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.join__text{
+    width: 260px;
+    color: #aaa;
+}
+.right__join{
+    width: 360px;
+    height: 360px;
+    background: url(../img/bg/4\ section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

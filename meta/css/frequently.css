@@ -1,0 +1,51 @@
+.first__frequently .container {
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 20px;
+}
+.frequently {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right__frequently {
+    background: #333;
+    padding: 15px;
+    border-radius: 20px;
+}
+.frequently__asked {
+    text-transform: uppercase;
+    color: #999;
+    font-family: "Courier New", Courier, monospace;
+    width: 420px;
+    height: 200px;
+    font-size: 50px;
+    font-weight: 200;
+    position: relative;
+}
+.img__box__frequentliy{
+    width: 250px;
+    height: 250px;
+    background: url(../img/bg/4\ section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.meta__wave__frequentliy {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.other__text__frequentliy{
+    width: 100%;
+    font-size: 14px;
+    color: #aaa;
+    padding-right:  15px;
+}
+.white__box{
+    width: 10px;
+    height: 20px;
+    background: #fff;
+}
