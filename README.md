@@ -1,2 +1,2 @@
-# AbrorXuanjonov.github.io
+# AbrorXusanjonov.github.io
 my firt public site
